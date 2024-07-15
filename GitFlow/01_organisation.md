@@ -38,9 +38,9 @@ Cela signifie que lors des futurs git push et git pull, vous n'aurez plus besoin
    - Développer la fonctionnalité et faire des commits réguliers :
      ```sh
      git add .
-     git commit -m "Ajout du formulaire de connexion"
+     git commit
      git add .
-     git commit -m "Implémentation de la validation du formulaire"
+     git commit
      ```
    - Pousser les changements vers le dépôt distant :
      ```sh
@@ -74,13 +74,13 @@ Cela signifie que lors des futurs git push et git pull, vous n'aurez plus besoin
    - Développer la fonctionnalité et faire des commits réguliers :
      ```sh
      git add .
-     git commit -m "Ajout de la page de tableau de bord"
+     git commit
      git add .
-     git commit -m "Intégration des données utilisateur"
+     git commit
      ```
    - Pousser les changements vers le dépôt distant :
      ```sh
-     git push -u origin feature_tableau-de-bord
+     git push origin feature_tableau-de-bord
      ```
    - Créer une Pull Request (PR) pour demander une révision et une fusion avec `main`.
 
