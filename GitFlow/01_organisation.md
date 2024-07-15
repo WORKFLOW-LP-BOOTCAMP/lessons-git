@@ -16,6 +16,13 @@
    git push -u origin main
    ```
 
+L'option -u dans la commande git push -u origin main n'est pas strictement nécessaire, mais elle est très utile. 
+
+Cette option permet de définir la branche distante (ici origin/main) comme la branche de suivi par défaut pour la branche locale (ici main). 
+
+Cela signifie que lors des futurs git push et git pull, vous n'aurez plus besoin de spécifier l'origine et la branche, car Git saura automatiquement où pousser et d'où tirer les changements.
+
+
 2. **Chaque développeur clone le dépôt** :
    ```sh
    git clone [url_du_dépôt]
