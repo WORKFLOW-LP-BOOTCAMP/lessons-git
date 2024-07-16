@@ -10,7 +10,11 @@
 
 4. **Un commit, un changement** : Essayez de faire un commit pour chaque changement logique distinct. Évitez les commits "fourre-tout" avec de multiples changements non liés.
 
+----- 
+
 5. **Utilisez les mots-clés pour lier aux issues** : Si votre commit résout un problème spécifique, mentionnez-le en utilisant les mots-clés appropriés comme "Fixes #123" ou "Closes #456" pour lier automatiquement le commit à l'issue correspondante.
+
+----- 
 
 6. **Capitalisez la première lettre** : Commencez la première ligne par une majuscule pour plus de lisibilité.
 
